@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+body{
+
+	background-color:indigo;
+
+}
+
+h1{
+	font-family: "Sans","Times";
+	text-align: center;
+	margin-bottom: 10px;
+	color: cyan;
+}
+
+section{
+	margin:10px;
+	position: relative;
+	border:1px solid black;
+	padding: 5px;
+}
+h2{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	right: 0px;
+	width: 160px;
+    height: 25px;
+    border-left: 1px solid black;
+    border-bottom:  1px solid black;
+	text-align: center;
+    background-color: yellow; 
+    font-size: 20px;
+
+}
+p{
+	padding: 6px;
+	margin-top: 20px;
+}
+
+
+#ml {
+	background-color: tomato;
+}
+#ai{
+	background-color: deepskyblue;
+}
+#dl{
+	background-color: lightgreen;
+}
+.row{
+	width: 100%;
+}
+/*** Desktop view ***/
+ 
+@media (min-width: 992px) {
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+}
+
+
+/*** Tablet view ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+    
+}
+
+
+/*** Mobile view ***/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+	}     
+}
